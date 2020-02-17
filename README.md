@@ -30,13 +30,23 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the DOM?
 
+    DOM stands for Document Object Model and is meant to represent the data of the objects that makeup the structure of a web document.
+
 2. What is an event?
+
+    An event is an action that takes place inside the DOM. Events can range from clicking the mouse or typing on the keyboard or waiting for a specific image to load on the web page, etc.
 
 3. What is an event listener?
 
+    An event listener is a method that is waiting for a specific kind of event to occur. The .addEventListener() method is attached to the EvenTarget which can receive and listen for events. Written as EventTarget.addEventLister(). If we had a btn class that had the element of button and we were waiting for a click event it would be written as btn.addEventListener('click', (event)=>{//code for what would happen when btn is clicked.}).
+
 4. Why would we convert a NodeList into an Array?
 
+    By gathering a NodeList we are using document.querySelectorAll() and looking through all the elements on our web page, which is a lot slower than looking through an Array of elements. By specifying what kind of element we are using it makes our web application have better performance.
+
 5. What is a component?
+
+    A component is what makes up the entirety of a webpage. Components are reusable pieces of code used to build elements that can share both functionality and styling. Components are the center of dynamic web applications and Javascript frameworks.
 
 ### Git Set up
 
